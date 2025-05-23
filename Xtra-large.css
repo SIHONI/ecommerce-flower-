@@ -1,0 +1,193 @@
+
+header label{
+    font-size: 53px;
+}
+header nav{
+    width: 45%;
+    left: 32%;
+}
+header nav a{
+    font-size: 25px;
+}
+header div i{
+    font-size: 25px;
+}
+/* ---------------------home--------------- */
+
+.home-text h1{
+    font-size: 52px;
+}
+.home-text h2{
+    font-size: 37px;
+}
+.home-text p{
+    font-size: 26px;
+    line-height: 30px;
+}
+.home-text button{
+    font-size: 22px;
+}
+.home-image{
+    
+    max-width: 40%;
+}
+.home-image img{
+    width: 90%;
+
+}
+/* --------------------about------------------- */
+.about-section h1{
+    font-size: 58px;
+}
+.about-video video{
+  width: 90%;    
+
+}
+.about-text h3{
+    font-size: 43px;
+}
+.about-text p{
+    font-size: 24px;
+    line-height:30px;
+}
+.about-text button{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.icons{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.icons .delivery,.cash ,.payment, .gift{
+    max-width: 40%;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 10px;
+
+}
+.icons i{
+    font-size: 59px;
+    margin-right: 2px;
+}
+.text{
+    margin-left: 3px;
+    padding: 2px;
+}
+.text h3{
+    font-size: 23px;
+}
+.text span{
+    font-size: 20px;
+    /* background-color:gold; */
+    margin-top: 2px;
+}
+/* -------------product------------------- */
+
+.product{
+    min-height: auto;
+    padding-bottom: 20px;
+}
+.product h1{
+    font-size: 55px;
+}
+.first3container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.last3container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.first3container span ,.last3container span{
+    font-size: 25px;
+
+    margin-top: 5px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.first3container .content ,.last3container .content{
+    border-top: 4px dashed rgb(194, 82, 74);
+    margin-top: 3px;
+    
+}
+.first3container .content h3,.last3container .content h3{
+    font-size: 29px;
+}
+.first3container .content h4,.last3container .content h4{
+    font-size: 24px;
+}
+.flower1,.flower2,.flower3 ,.flower4,.flower5,.flower6{
+    margin-left: 0px;
+}
+.show button{
+    font-size: 23px;
+    margin-top: 40px;
+}
+/* --------------------review------------------- */
+.review-section h1{
+    font-size: 55px;
+}
+.review-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.review1,.review2,.review3{
+    margin-left: 0px;
+}
+.stars i{
+    font-size: 30px;
+}
+.review-container p{
+    font-size: 24px;
+}
+.review-container h3{
+    font-size: 26px;
+}
+.review-container span{
+    font-size: 20px;
+}
+/* ---------contact--------------- */
+.contact-container{
+    min-height:70vh;
+}
+.contact-section h1{
+    font-size: 55px;
+}
+.contact-container .image img{
+    width: 90%;
+    margin-top: 0px;
+}
+.text-form input{
+    font-size: 25px;
+}
+.text-form textarea{
+    font-size: 25px;
+}
+.text-form input[type="submit"]{
+    font-size: 25px;
+}
+/* -----------footer--------------- */
+
+.footer-container{
+    min-height: 300px;
+}
+.footer-container h3{
+    font-size: 30px;
+}
+ul li{
+    font-size: 25px;
+}
+.copy h2{
+    font-size: 25px;
+}

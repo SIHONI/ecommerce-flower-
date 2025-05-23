@@ -1,0 +1,207 @@
+header nav{
+    position: fixed;
+    top: 90px;
+    left: -100%;
+    padding-top: 50px;
+
+    min-height: 100vh;
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.5s ease-in-out ;
+    
+}
+header nav a{
+    display: block;
+    text-align: center;
+    line-height: 0px;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 0px;
+
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    margin-left: 5%;
+    font-size: 25px;
+    display: inline;
+    
+}
+.checkbtn i{
+    color: rgb(194, 82, 74);
+    line-height: 90px;
+}
+
+#check:checked ~ nav{
+    left: 0;
+}
+/* -----------home-section------------------ */
+
+.home-section{
+    min-height: auto;
+    /* background-color: aqua; */
+}
+
+.home-text{
+    /* border: 2px solid black; */
+    margin: 10px auto;
+    float: none;
+    max-width: 90%;
+    min-height: 340px;
+}
+.home-text h1{
+    font-size: 43px;
+    margin-bottom: 5px;
+}
+.home-text h2{
+    font-size: 31px;
+}
+.home-text p{
+    font-size: 19px;
+}
+.home-text p br{
+    display: none;
+}
+.home-text button{
+    margin-top: 20px;
+    display: none;
+}
+.home-image{
+    float: none;
+    /* border: 2px solid black; */
+    margin: 10px auto;
+    max-width: 90%;
+}
+.home-image img{
+    width: 60%;
+}
+/* -------about-------------------------- */
+
+.about-video{
+    max-width: 60%;
+    float: none;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    padding: 10px;
+}
+.about-text{
+    max-width: 80%;
+    margin: 20px auto 0px auto;
+    float: none;
+}
+.about-text p{
+    font-size: 20px;
+}
+.about-text button{
+    margin-top: 15px;
+}
+.icons .delivery,.cash ,.payment, .gift{
+     
+    max-width: 38%;
+    margin-left:auto;
+    margin-right: auto;
+    float: none;
+    padding-right: 20px
+    
+
+}
+.icons .delivery{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+
+.icons i{
+    font-size: 50px;
+    margin-left: 0px;
+}
+/* ----------------product---------------- */
+.first3container{
+
+    margin-top: 90px;
+} 
+.flower1,.flower2,.flower3 ,.flower4,.flower5,.flower6{
+
+    width: 43%;
+    float: none;
+    margin-bottom: 50px;
+    /* border: 2px solid black; */
+
+    
+    
+}
+.flower1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flower2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flower3{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flower4{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flower5{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flower6{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ------review------------------------ */
+
+.review1,.review2,.review3{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-bottom: 50px;
+}
+/* -------------------contact---------------------- */
+.contact-section{
+    min-height: auto;
+}
+
+.contact-container{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+}
+.contact-container .image{
+  display: none;
+}
+
+
+.contact-container .text-form{
+    float: none;
+    width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto
+}
+.text-form input{
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width: 60%;
+}
+.text-form textarea{
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width: 60%;
+}
+.text-form input[type="submit"]{
+    margin-top: 15px;
+}
